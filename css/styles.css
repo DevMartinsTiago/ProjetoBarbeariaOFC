@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppings', sans-serif;
+}
+html{
+    height: 500vh;
+    background-color: black;
+
+}
+
+.conteiner{
+    max-width: 1280px  ;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+
+}
+header.rolagem{
+    background-color: black;
+    padding: 20px 4%;
+}
+header.rolagem a{
+    color: silver;
+}    
+header i {
+    font-size: 30px;
+    color: black;
+}
+header ul{
+    list-style-type: none;
+}
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+.btn-contato button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    transition: .2s;   
+}
+
+
+.banner{
+    height: 100vh;
+    background-image: url(/barbea.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner h1{
+    font-size: 4em;
+    color: saddlebrown;
+}
+.banner h1 span{
+    color: white;
+}
+.conteiner_visao{
+    background-color: red;
+    height: 1280px;
+    width: 209,1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
