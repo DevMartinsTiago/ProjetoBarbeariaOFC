@@ -3,6 +3,11 @@ window.addEventListener("scroll", function(){
     let header = document.querySelector('#header')
     header.classList.toggle('rolagem',window.scrollY > 0)
 })
-document.getElementById("botao").addEventListener("click", function() {
-    window.location.href = "https://wa.me/5519997711979";
-});
+        const botaoWhatsapp = document.getElementById("botao");
+        const numeroTelefone = "5519997711979";
+        const mensagemPredefinida = "Olá, eu gostaria de agendar meu horário";
+        const urlWhatsapp = `https://api.whatsapp.com/send?phone=${numeroTelefone}&text=${encodeURIComponent(mensagemPredefinida)}`;
+        botaoWhatsapp.addEventListener("click", function() {
+            window.location.href = urlWhatsapp;
+        });
+    
