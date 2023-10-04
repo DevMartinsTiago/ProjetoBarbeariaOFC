@@ -5,7 +5,7 @@
         font-family: 'Poppings', sans-serif;
     }
     html{
-        height: 500vh;
+        height: 300vh;
         width: 100vw;
         background-color: red;
 
@@ -80,7 +80,7 @@
         color: white;
     }
     .conteiner_visao{
-        background-color: black;
+        background-color: white;
         height: 100vh;
         width: 100vw;
         display: flex;
@@ -115,8 +115,35 @@
         font-size: 20px;
         line-height: 1.5;
         margin-bottom: 20px;
-        color: white;
+        color: black;
     }
     header img {
         width: 3vw;  
     }
+    .servicos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: black;
+        
+    }
+    
+    .servico {
+        width: calc(33.33% - 15px);
+        margin-bottom: 20px;
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Estilos para telas menores (por exemplo, para dispositivos móveis) */
+    @media only screen and (max-width: 768px) {
+        .servico {
+            width: 100%; /* Em telas menores, exiba 1 serviço por linha */
+        }
+    }
+   .servico img {
+    width: 30px;
+    height: auto;
+   }
