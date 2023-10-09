@@ -4,13 +4,6 @@
         box-sizing: border-box;
         font-family: 'Poppings', sans-serif;
     }
-    html{
-        height: 300vh;
-        width: 100vw;
-        background-color: red;
-
-    }
-
     .conteiner{
         max-width: 1280px  ;
         margin: auto;
@@ -136,11 +129,9 @@
         text-align: center;
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     }
-    
-    /* Estilos para telas menores (por exemplo, para dispositivos móveis) */
     @media only screen and (max-width: 768px) {
         .servico {
-            width: 100%; /* Em telas menores, exiba 1 serviço por linha */
+            width: 100%;
         }
     }
    .servico img {
