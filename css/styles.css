@@ -72,19 +72,25 @@
     .banner h1 span{
         color: white;
     }
-    .conteiner_visao{
-        background-color: white;
-        height: 100vh;
-        width: 100vw;
-        display: flex;
+    #visao{
+        block-size: auto;
+        margin: 15vh;
+        size: auto;
+    }
+    #conteiner_visao{
+        height: auto;   
+        display: block;
         justify-content: start;
         align-items: center;
+        box-sizing: border-box;
     }
     .flex_visao{
-        width: 90vw;
+        margin-top: 15vh;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+        box-sizing: border-box;
+
     }
     @media only screen and (min-width: 420px){ 
         main{
@@ -113,7 +119,7 @@
     header img {
         width: 3vw;  
     }
-    .servicos {
+    #servicos {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -138,3 +144,33 @@
     width: 30px;
     height: auto;
    }
+
+   @media (max-width: 420px) {
+    main {
+      width: 100%;
+    }
+  
+    .flex_visao {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 421px) and (max-width: 1000px) {
+    main {
+      width: 70vw;
+    }
+  
+    .flex_visao {
+      width: 70vw;
+    }
+  }
+  
+  @media (min-width: 1001px) {
+    main {
+      width: 30vw;
+    }
+  
+    .flex_visao {
+      width: 30vw;
+    }
+  }
