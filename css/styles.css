@@ -15,7 +15,7 @@
     }
     header{
         width: 100%;
-        padding: 8vh 4%;
+        padding: 5vh 4%;
         position: fixed;
         top: 0;
         left: 0;
@@ -24,7 +24,7 @@
     }
     header.rolagem{
         background-color: black;
-        padding: 2,6vh 4%;
+        padding: 2,6vh 4%,
     }
     header.rolagem a{
         color: silver;
@@ -73,10 +73,11 @@
         color: white;
     }
     #visao{
-        block-size: auto;
-        margin: 15vh;
+        block-size: border-box;
+        margin: 5vh;
         size: auto;
         padding: 65px;
+    
     }
     #conteiner_visao{
         height: auto;   
