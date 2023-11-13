@@ -7,6 +7,7 @@
     <title>ChristianViana</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -19,7 +20,7 @@
                 </div>
                 <nav>
                     <ul>
-                        <li> <a href="#">INICIO</a></li>
+                        <li> <a href="index.html">INICIO</a></li>
                         <li> <a href="/cadastro.html">VOLTAR</a></li>
                     </ul>
                 </nav>
@@ -34,30 +35,16 @@
         <section class="form_conteiner">
         <div class="conteiner_forms">
             <form action="">
-                <h2>Realize seu novo cadastro</h2>
+                <h2>Redefinição de senha</h2>
+                <p>Insira seu email cadastrado</p>
             <div class="inupt-single">
-                <input type="text" class="inputforms" id="forms-user" autocomplete="off" required>
-                <label for="forms-user">Nome</label>
+                <input type="email" class="inputforms" id="forms-user" autocomplete="off" required>
+                <label for="forms-user">Email</label>
             </div>
-            <div class="inupt-single">
-                <input type="email" class="inputforms" id="forms-key" autocomplete="off" required>
-                <label for="form-key">Email</label>
-            </div>
-        <div class="inupt-single">
-            <input type="date" class="inputforms" id="forms-user" required>
-            <label for="forms-user"></label>
+            <div class="btn-forms"><input type="submit" value="Enviar" id="botao-senha">
         </div>
-        <div class="inupt-single">
-            <input type="tel" class="inputforms" id="forms-key" autocomplete="off" required>
-            <label for="form-key">Telefone</label>
-        </div>
-        <div class="inupt-single">
-            <input type="password" class="inputforms" id="forms-key" autocomplete="off" required>
-            <label for="form-key">Senha</label>
-        </div>
-        <div class="btn-cadastro"><input type="submit" value="Cadastrar" id="botao-cadastrar">
-        </div>
-    </div>
+        <a href="/novocadastro.html">Fazer cadastro</a><br>
+        <a href="Senha">Esqueci minha senha</a>
             </form>
         </div>
     </section>

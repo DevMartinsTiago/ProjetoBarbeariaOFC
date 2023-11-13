@@ -5,7 +5,7 @@ window.addEventListener("scroll", function(){
 })
         const botaoWhatsapp = document.getElementById("botao");
         const numeroTelefone = "5519997711979";
-        const mensagemPredefinida = "Olá, eu gostaria de agendar meu horário";
+        const mensagemPredefinida = "Olá, preciso de ajuda com meu agendamento";
         const urlWhatsapp = `https://api.whatsapp.com/send?phone=${numeroTelefone}&text=${encodeURIComponent(mensagemPredefinida)}`;
         botaoWhatsapp.addEventListener("click", function() {
             window.location.href = urlWhatsapp;

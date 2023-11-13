@@ -240,9 +240,16 @@ form .inupt-single .inputforms:valid ~ label {
 }
 form input [type=submit] {
     padding: 10px 40px;
-    background-color: sienna;
+    
 }
 .btn-forms input {
+    background-color: brown;
+    border-radius: 10px;
+    width: 15vh;
+    color: silver;
+    border-color: goldenrod;
+}
+.btn-cadastro input{
     background-color: brown;
     border-radius: 10px;
     width: 15vh;
