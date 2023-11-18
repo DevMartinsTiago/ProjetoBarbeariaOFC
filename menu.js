@@ -10,3 +10,4 @@ window.addEventListener("scroll", function(){
         botaoWhatsapp.addEventListener("click", function() {
             window.location.href = urlWhatsapp;
         });
+        

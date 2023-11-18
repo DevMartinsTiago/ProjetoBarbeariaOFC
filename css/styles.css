@@ -19,12 +19,13 @@
         position: fixed;
         top: 0;
         left: 0;
-        transition: 1s;
+        transition: 1.5s;
 
     }
     header.rolagem{
         background-color: black;
-        padding: 2,6vh 4%,
+        padding: 2,6vh 4%;
+        
     }
     header.rolagem a{
         color: silver;
@@ -92,6 +93,7 @@
         margin-right: auto;
         text-align: center;
         box-sizing: border-box;
+        margin-bottom: 30vh;
 
     }
     @media only screen and (min-width: 420px){ 
@@ -126,6 +128,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         background-color: black;
+        
         
     }
     
@@ -260,8 +263,6 @@ form input [type=submit] {
 h4{
     padding-bottom: 35px;
     text-align: auto;
-    margin-left: 0;
-    
 }
 
 @media only screen and (max-width: 768px) {
@@ -275,4 +276,19 @@ h4{
         box-sizing: border-box;
     
     }
+}
+
+.rodape{
+    height: auto;
+    width: 100;
+    background-color: silver;
+    font-size: 2.3vh;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.margservico{
+    height: 3vh;
+    background-color: black;
+    
 }

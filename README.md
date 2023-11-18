@@ -18,6 +18,6 @@ Para ver o código completo, consulte os arquivos HTML e CSS.
 ## Alunos:
 - Tiago Martins da Silva - 202308540572
 - Simone de Cássia da Silva - 202308428829
-- Gabriel Sulterio - 202309155575
+- Gabriel Sutério - 202309155575
 - Leonardo Henrique de Andrade Goulart - 202309398303
 - Matheus Gustavo Nunes - 202308428837
