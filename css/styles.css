@@ -63,7 +63,7 @@ header ul li a{
 
 .banner{
     height: 100vh;
-    background-image: url(/imagens/barbea.png);
+    background-image: url("/imagens/barbea.png");
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
