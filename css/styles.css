@@ -260,9 +260,18 @@ form input [type=submit] {
     border-color: goldenrod;
 }
 
-h4{
-    padding-bottom: 35px;
-    text-align: auto;
+
+
+.banner{
+    height: 100vh;
+    background-image: url("../imagens/barbea.png");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 @media only screen and (max-width: 768px) {
